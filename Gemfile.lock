@@ -324,14 +324,15 @@ GEM
     http-parser (1.2.1)
       ffi-compiler (>= 1.0, < 2.0)
     http_parser.rb (0.6.0)
-    httparty (0.16.4)
+    httparty (0.18.1)
       mime-types (~> 3.0)
       multi_xml (>= 0.5.2)
     httpclient (2.8.3)
     huginn_agent (0.4.3)
       thor
-    hypdf (1.0.18)
-      httparty (~> 0.16.0)
+    hypdf (1.0.16)
+      httmultiparty (~> 0.3)
+      httparty (~> 0.13)
     i18n (1.8.5)
       concurrent-ruby (~> 1.0)
     jmespath (1.4.0)
@@ -730,7 +731,7 @@ DEPENDENCIES
   webmock (~> 3.5.1)
 
 RUBY VERSION
-   ruby 2.7.0p0
+   ruby 2.6.5p114
 
 BUNDLED WITH
    2.1.4

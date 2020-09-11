@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '>=2.6.5'
+ruby '~> 2.6.5'
 
 # Ensure github repositories are fetched using HTTPS
 git_source(:github) do |repo_name|
