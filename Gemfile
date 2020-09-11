@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '>=2.6.0'
+ruby '>=2.6.5'
 
 # Ensure github repositories are fetched using HTTPS
 git_source(:github) do |repo_name|
@@ -32,7 +32,7 @@ end
 # gem 'twilio-ruby', '~> 3.11.5'    # TwilioAgent
 # gem 'ruby-growl', '~> 4.1.0'      # GrowlAgent
 # gem 'net-ftp-list', '~> 3.2.8'    # FtpsiteAgent
-# gem 'forecast_io', '~> 2.0.0'     # WeatherAgent
+gem 'forecast_io', '~> 2.0.0'     # WeatherAgent
 # gem 'rturk', '~> 2.12.1'          # HumanTaskAgent
 gem 'erector', github: 'dsander/erector', branch: 'rails6'
 # gem 'hipchat', '~> 1.2.0'         # HipchatAgent
